@@ -69,7 +69,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+<<<<<<< HEAD
     gap: 82px;
+=======
+    flex-wrap: wrap-reverse;
+>>>>>>> 8ca4ca42801b752911ecaebdd935254ad8a84b77
 }
 
 .container__conteudo {
