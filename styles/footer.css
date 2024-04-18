@@ -1,0 +1,154 @@
+
+.rodape {
+    background-color: var(--cor-rodape);
+    font-family: 'Raleway';
+    font-size: 1.5rem;
+    padding: 10px;
+    /* Adicione algum espaço interno */
+    box-sizing: border-box;
+    /* Inclui preenchimento e borda na largura máxima */
+    display: flex;
+    flex-direction: column;
+    /* Empilha os elementos verticalmente */
+    justify-content: space-between;
+    /* Distribui o espaço verticalmente */
+}
+
+.footer-container {
+    margin: 0 15%;
+    display: flex;
+    align-items: center;
+    /* Centraliza verticalmente o conteúdo */
+    justify-content: space-between;
+    /* Espaçamento uniforme entre os elementos */
+}
+
+.footer-left p {
+    font-size: 1rem;
+    font-family: 'Raleway';
+    color: var(--cor--subtitle);
+}
+
+.footer-center {
+    flex: 1;
+    /* Ocupa o espaço restante */
+    display: flex;
+    align-items: center;
+    /* Centraliza verticalmente o conteúdo */
+    justify-content: center;
+    /* Centraliza horizontalmente o conteúdo */
+}
+
+
+
+.fa-brands {
+    margin-right: 20px;
+    color: #ffffff;
+    /* Altera a cor do ícone para vermelho */
+}
+
+
+
+
+@media screen and (min-width: 1024px){
+    .rodape {
+        background-color: var(--cor-rodape);
+        font-family: 'Raleway';
+        font-size: 1.5rem;
+        padding: 10px;
+        /* Adicione algum espaço interno */
+        box-sizing: border-box;
+        /* Inclui preenchimento e borda na largura máxima */
+        display: flex;
+        flex-direction: column;
+        /* Empilha os elementos verticalmente */
+        justify-content: space-between;
+        /* Distribui o espaço verticalmente */
+    }
+    
+    .footer-container {
+        margin: 0 15%;
+        display: flex;
+        align-items: center;
+        /* Centraliza verticalmente o conteúdo */
+        justify-content: space-between;
+        /* Espaçamento uniforme entre os elementos */
+    }
+    
+    .footer-left p {
+        font-size: 1rem;
+        font-family: 'Raleway';
+        color: var(--cor--subtitle);
+    }
+    
+    .footer-center {
+        flex: 1;
+        /* Ocupa o espaço restante */
+        display: flex;
+        align-items: center;
+        /* Centraliza verticalmente o conteúdo */
+        justify-content: center;
+        /* Centraliza horizontalmente o conteúdo */
+    }
+    
+    
+    
+    .fa-brands {
+        margin-right: 20px;
+        color: #ffffff;
+        /* Altera a cor do ícone para vermelho */
+    }
+}
+
+
+
+@media screen and (min-width: 1728px){
+    .rodape {
+        background-color: var(--cor-rodape);
+        font-family: 'Raleway';
+        font-size: 1.5rem;
+        padding: 10px;
+        /* Adicione algum espaço interno */
+        box-sizing: border-box;
+        /* Inclui preenchimento e borda na largura máxima */
+        display: flex;
+        flex-direction: column;
+        /* Empilha os elementos verticalmente */
+        justify-content: space-between;
+        /* Distribui o espaço verticalmente */
+    }
+    
+    .footer-container {
+        margin: 0 15%;
+        display: flex;
+        align-items: center;
+        /* Centraliza verticalmente o conteúdo */
+        justify-content: space-between;
+        /* Espaçamento uniforme entre os elementos */
+    }
+    
+    .footer-left p {
+        font-size: 1rem;
+        font-family: 'Raleway';
+        color: var(--cor--subtitle);
+    }
+    
+    .footer-center {
+        flex: 1;
+        /* Ocupa o espaço restante */
+        display: flex;
+        align-items: center;
+        /* Centraliza verticalmente o conteúdo */
+        justify-content: center;
+        /* Centraliza horizontalmente o conteúdo */
+    }
+    
+    
+    
+    .fa-brands {
+        margin-right: 20px;
+        color: #ffffff;
+        /* Altera a cor do ícone para vermelho */
+    }
+     
+}

@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,28 +23,60 @@
 
 <body>
     <header class="cabecalho">
-        <div class="logo-name">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu">
+                <span class="cabecalho__menu-hamburguer"></span>
+            </label>
             <h3 class="name">Matheus.<strong class="titulo__destaque">Dev</strong></h3>
+            <ul class="lista-menu">
+                <li class="lista-menu__titulo">Categorias</li>
+
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Sobre mim</a>
+                </li>
+
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Skills</a>
+                </li>
+
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Hobbies</a>
+                </li>
+
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Formação</a>
+                </li>
+
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Projetos</a>
+                </li>
+
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Contato</a>
+                </li>
+            </ul>
+            <h3 class="container__titulo">Matheus.<strong class="titulo__destaque__dev">Dev</strong></h3>
         </div>
-        <nav class="cabecalho__menu">
-            <a class="cabecalho__menu__link">
-                Sobre mim
-            </a>
-            <a class="cabecalho__menu__link">
-                Skills
-            </a>
-            <a class="cabecalho__menu__link">
-                Hobbies
-            </a>
-            <a class="cabecalho__menu__link">
-                Formação
-            </a>
-            <a class="cabecalho__menu__link">
-                Projetos
-            </a>
-        </nav>
-        
+        <ul class="opcoes">
+            <li class="opcoes__item">
+                <a href="" class="opcoes__link">Sobre mim</a>
+            </li>
+            <li class="opcoes__item">
+                <a href="" class="opcoes__link">Skills</a>
+            </li>
+            <li class="opcoes__item">
+                <a href="" class="opcoes__link">Hobbies</a>
+            </li>
+            <li class="opcoes__item">
+                <a href="" class="opcoes__link">Formação</a>
+            </li>
+            <li class="opcoes__item">
+                <a href="" class="opcoes__link">Contato</a>
+            </li>
+        </ul>
     </header>
+
     <section class="apresentacao">
         <section class="apresentacao__conteudo">
             <div class="container__conteudo">
@@ -91,66 +124,70 @@
                 <p class="skills__conteudo__titulo"> Skills </p>
             </div>
 
-            <div class="linguagens">
-                <img src="./assets/html.png" alt="HTML5">
-                <p>Html 5</p>
+            <div class="container">
+                <div class="linguagens">
+                    <img src="./assets/html.png" alt="HTML5">
+                    <p>Html 5</p>
+                </div>
+
+                <div class="linguagens">
+                    <img src="./assets/Javascript.png" alt="JavaScript">
+                    <p>JavaScript</p>
+                </div>
+
+                <div class="linguagens">
+                    <img src="./assets/git.png" alt="Git">
+                    <p>Git</p>
+                </div>
+
+                <div class="linguagens">
+                    <img src="./assets/nodejs.png" class="node" alt="nodejs">
+                    <p>Nodejs</p>
+                </div>
+                <div class="linguagens">
+                    <img src="./assets/react.png" alt="React">
+                    <p>React</p>
+                </div>
+
+                <div class="linguagens">
+                    <img src="./assets/css.png" alt="Css">
+                    <p>CSS</p>
+                </div>
+
+                <div class="container__conteudo__hobbies">
+                    <p class="hobbies__conteudo__titulo"> Hobbies </p>
+                </div>
             </div>
 
-            <div class="linguagens">
-                <img src="./assets/Javascript.png" alt="JavaScript">
-                <p>JavaScript</p>
-            </div>
+            <div class="container">
+                <div class="hobbies">
+                    <img src="./assets/exercise.png" alt="Academia">
+                    <p>Academia</p>
+                </div>
 
-            <div class="linguagens">
-                <img src="./assets/git.png" alt="Git">
-                <p>Git</p>
-            </div>
+                <div class="hobbies">
+                    <img src="./assets/run.png" alt="JavaScript">
+                    <p>Correr</p>
+                </div>
 
-            <div class="linguagens">
-                <img src="./assets/nodejs.png" class="node" alt="nodejs">
-                <p>Nodejs</p>
-            </div>
-            <div class="linguagens">
-                <img src="./assets/react.png" alt="React">
-                <p>React</p>
-            </div>
+                <div class="hobbies">
+                    <img src="./assets/headphone.png" alt="Php">
+                    <p>Escutar música</p>
+                </div>
 
-            <div class="linguagens">
-                <img src="./assets/css.png" alt="Css">
-                <p>CSS</p>
-            </div>
+                <div class="hobbies">
+                    <img src="./assets/cozinha.png" class="node" alt="nodejs">
+                    <p>Cozinhar</p>
+                </div>
+                <div class="hobbies">
+                    <img src="./assets/tv.png" alt="React">
+                    <p>Assistir filmes</p>
+                </div>
 
-            <div class="container__conteudo__hobbies">
-                <p class="hobbies__conteudo__titulo"> Hobbies </p>
-            </div>
-
-            <div class="hobbies">
-                <img src="./assets/exercise.png" alt="Academia">
-                <p>Academia</p>
-            </div>
-
-            <div class="hobbies">
-                <img src="./assets/run.png" alt="JavaScript">
-                <p>Correr</p>
-            </div>
-
-            <div class="hobbies">
-                <img src="./assets/headphone.png" alt="Php">
-                <p>Escutar música</p>
-            </div>
-
-            <div class="hobbies">
-                <img src="./assets/cozinha.png" class="node" alt="nodejs">
-                <p>Cozinhar</p>
-            </div>
-            <div class="hobbies">
-                <img src="./assets/tv.png" alt="React">
-                <p>Assistir filmes</p>
-            </div>
-
-            <div class="hobbies">
-                <img src="./assets/dog.png" alt="Css">
-                <p>Animais</p>
+                <div class="hobbies">
+                    <img src="./assets/dog.png" alt="Css">
+                    <p>Animais</p>
+                </div>
             </div>
         </section>
     </section> <!--Skills-->
@@ -166,82 +203,91 @@
     <section class="experiencia">
         <div class="card">
             <div class="card-body">
-              <h3 class="card-title">ASSISTENTE ADMINISTRATIVO</h3>
-              <h4 class="card-subtitle">BANCO SANTANDER S.A.</h4>
-              <p class="card-text">Desempenhei um papel fundamental na gestão de planilhas e no estabelecimento de
-                comunicação eficiente com diversos setores da instituição, incluindo minha
-                responsabilidade na coordenação de demandas internas, garantindo o fluxo adequado
-                de informações</p>
+                <h3 class="card-title">ASSISTENTE ADMINISTRATIVO</h3>
+                <h4 class="card-subtitle">BANCO SANTANDER S.A.</h4>
+                <p class="card-text">Desempenhei um papel fundamental na gestão de planilhas e no estabelecimento de
+                    comunicação eficiente com diversos setores da instituição, incluindo minha
+                    responsabilidade na coordenação de demandas internas, garantindo o fluxo adequado
+                    de informações</p>
                 <p class="card-text-secundary">2022-2023</p>
             </div>
-          </div>
+        </div>
 
-          <div class="card">
+        <div class="card">
             <div class="card-body">
-              <h3 class="card-title">Superior, Análise e Desenvolvimento de Sistemas</h3>
-              <h4 class="card-subtitle">Universidade Cidade De São Paulo</h4>
-              <p class="card-text">Último semestre de graduação pela Universidade Cidade De São Paulo no curso de Análise e
-                Desenvolvimento de Sistemas.</p>
-              <p class="card-text"> 2022-2024 </p>
+                <h3 class="card-title">Superior, Análise e Desenvolvimento de Sistemas</h3>
+                <h4 class="card-subtitle">Universidade Cidade De São Paulo</h4>
+                <p class="card-text">Último semestre de graduação pela Universidade Cidade De São Paulo no curso de
+                    Análise e
+                    Desenvolvimento de Sistemas.</p>
+                <p class="card-text"> 2022-2024 </p>
             </div>
-          </div>
-          <div class="card">
+        </div>
+        <div class="card">
             <div class="card-body">
-              <h3 class="card-title">TELEMARKETING</h3>
-              <h4 class="card-subtitle">VIKTECH S.A.</h4>
-              <p class="card-text">Responsável por realizar atendimento ao cliente, abrir seleção e solucionar dúvidas
-                relacionadas aos serviços financeiros oferecidos.</p>
-              <p class="card-text-secundary">2021-2022</p>
+                <h3 class="card-title">TELEMARKETING</h3>
+                <h4 class="card-subtitle">VIKTECH S.A.</h4>
+                <p class="card-text">Responsável por realizar atendimento ao cliente, abrir seleção e solucionar dúvidas
+                    relacionadas aos serviços financeiros oferecidos.</p>
+                <p class="card-text-secundary">2021-2022</p>
             </div>
-          </div>
-          <div class="card">
+        </div>
+        <div class="card">
             <div class="card-body">
-              <h3 class="card-title">Web Developer - Design UI UX</h3>
-              <h4 class="card-subtitle">Oracle Brasil</h4>
-              <p class="card-text">Criado pela Oracle e realizado em parceria com a Alura, com objetivo social de capacitar pessoas em
-                tecnologia e conectá-las com o mercado de trabalho por meio de empresas parceiras.</p>
-              <p class="card-text-secundary">2024-2024</p>
+                <h3 class="card-title">Web Developer - Design UI UX</h3>
+                <h4 class="card-subtitle">Oracle Brasil</h4>
+                <p class="card-text">Criado pela Oracle e realizado em parceria com a Alura, com objetivo social de
+                    capacitar pessoas em
+                    tecnologia e conectá-las com o mercado de trabalho por meio de empresas parceiras.</p>
+                <p class="card-text-secundary">2024-2024</p>
             </div>
-          </div>
-          <div class="card">
+        </div>
+        <div class="card">
             <div class="card-body">
-              <h3 class="card-title">TELEMARKETING</h3>
-              <h4 class="card-subtitle">PERSONALCOB SERVIÇOS FINANCEIROS LTDA</h4>
-              <p class="card-text">Responsável por conduzir atendimento ao cliente especializado na área de cobrança.</p>
-              <p class="card-text-secundary">2021-2021</p>
+                <h3 class="card-title">TELEMARKETING</h3>
+                <h4 class="card-subtitle">PERSONALCOB SERVIÇOS FINANCEIROS LTDA</h4>
+                <p class="card-text">Responsável por conduzir atendimento ao cliente especializado na área de cobrança.
+                </p>
+                <p class="card-text-secundary">2021-2021</p>
             </div>
-          </div>
-          <div class="card">
+        </div>
+        <div class="card">
             <div class="card-body">
-              <h3 class="card-title">Desenvolvedor Web Java</h3>
-              <h4 class="card-subtitle">Instituto Proa</h4>
-              <p class="card-text">Curso destinado aos jovens de 17 a 22 anos que almejam ingressar no mercado de trabalho em
-                tecnologia, Oferecendo conteúdos abrangentes, desde os princípios
-                mais básicos da programação até projetos avançados e engajadores.</p>
+                <h3 class="card-title">Desenvolvedor Web Java</h3>
+                <h4 class="card-subtitle">Instituto Proa</h4>
+                <p class="card-text">Curso destinado aos jovens de 17 a 22 anos que almejam ingressar no mercado de
+                    trabalho em
+                    tecnologia, Oferecendo conteúdos abrangentes, desde os princípios
+                    mais básicos da programação até projetos avançados e engajadores.</p>
                 <p class="card-text-secundary">2023-2023</p>
             </div>
-          </div>
+        </div>
     </section> <!--experiencia-->
+
+    <section class="formacao">
+        <h2 class="experiencia-profissional">Projetos</h2>
+    </section>
 
     <section class="projetos">
         <div class="cards__projetos">
-        <img src="./assets/Decodificador.png" alt="DecoCrypt" >
-        <h3>Deco<strong>Crypt</strong></h3>
-        <button class="css__buttons"><a href="https://decocrypt.vercel.app/">Acesse</a></button>
+            <img src="./assets/Decodificador.png" alt="DecoCrypt">
+            <h3>Deco<strong>Crypt</strong></h3>
+            <button class="css__buttons"><a href="https://decocrypt.vercel.app/">Acesse</a></button>
         </div>
-
+    
         <div class="cards__projetos">
-        <img src="./assets/Decodificador.png" alt="DecoCrypt" >
-        <h3>Deco<strong>Crypt</strong></h3>
-        <button class="css__buttons"><a href="https://decocrypt.vercel.app/">Acesse</a></button>
+            <img src="./assets/Decodificador.png" alt="DecoCrypt">
+            <h3>Deco<strong>Crypt</strong></h3>
+            <button class="css__buttons"><a href="https://decocrypt.vercel.app/">Acesse</a></button>
         </div>
-
+    
         <div class="cards__projetos">
-        <img src="./assets/Decodificador.png" alt="DecoCrypt" >
-        <h3>Deco<strong>Crypt</strong></h3>
-        <button class="css__buttons"><a href="https://decocrypt.vercel.app/">Acesse</a></button>
+            <img src="./assets/Decodificador.png" alt="DecoCrypt">
+            <h3>Deco<strong>Crypt</strong></h3>
+            <button class="css__buttons"><a href="https://decocrypt.vercel.app/">Acesse</a></button>
         </div>
     </section>
+    
 
 
     <!-- SESSÃO CONTATO -->

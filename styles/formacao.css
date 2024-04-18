@@ -1,0 +1,250 @@
+/* SESSÃO FORMAÇÃO ACADEMICA */
+.experiencia-profissional {
+    text-align: center;
+    margin-bottom: 60px;
+    /* Adicione margem inferior para separá-lo do container */
+    color: var(--cor-de-link);
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.subtitulos {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.experiencia {
+    display: flex;
+    margin: 4%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.detalhes {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.card-title,
+.card-subtitle,
+.card-text {
+    margin-top: 10px;
+    /* Removemos as margens padrão para evitar espaços extras */
+    color: var(--cor-de-link);
+    font-family: 'Raleway', sans-serif;
+}
+
+.card-text-secundary {
+    margin-top: 10px;
+    /* Removemos as margens padrão para evitar espaços extras */
+    color: var(--cor-teste);
+    font-family: 'Raleway', sans-serif;
+}
+
+.card-title {
+    font-size: 1.25rem;
+}
+
+.card-subtitle {
+    font-size: 1rem;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: var(--cor--subtitle);
+    /* Corrigimos o nome da variável de cor */
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--cor-de-fundo);
+    width: 580px;
+    max-width: calc(100% - 20px);
+    height: auto;
+    border-radius: 16px;
+    margin-bottom: 57px;
+    border: 1px solid var(--cor-teste);
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+}
+
+.card-body {
+    padding: 20px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+@media screen and (min-width: 1024px){
+    .experiencia-profissional {
+        text-align: center;
+        margin-bottom: 60px;
+        /* Adicione margem inferior para separá-lo do container */
+        color: var(--cor-de-link);
+        font-weight: bold;
+        font-size: 2.37rem;
+    }
+    
+    .subtitulos {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    
+    .experiencia {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    
+    
+    .detalhes {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    
+    .card-title,
+    .card-subtitle,
+    .card-text {
+        margin-top: 10px;
+        /* Removemos as margens padrão para evitar espaços extras */
+        color: var(--cor-de-link);
+        font-family: 'Raleway', sans-serif;
+    }
+    
+    .card-text-secundary {
+        margin-top: 10px;
+        /* Removemos as margens padrão para evitar espaços extras */
+        color: var(--cor-teste);
+        font-family: 'Raleway', sans-serif;
+    }
+    
+    .card-title {
+        font-size: 1.25rem;
+    }
+    
+    .card-subtitle {
+        font-size: 1rem;
+    }
+    
+    .card-text {
+        font-size: 1rem;
+        color: var(--cor--subtitle);
+        /* Corrigimos o nome da variável de cor */
+    }
+    
+    
+    .card {
+        display: flex;
+        flex-direction: column;
+        background-color: var(--cor-de-fundo);
+        width: 580px;
+        max-width: calc(100% - 20px);
+        height: auto;
+        border-radius: 16px;
+        margin-bottom: 57px;
+        border: 1px solid var(--cor-teste);
+        box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    }
+    
+    .card-body {
+        padding: 20px;
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
+
+
+
+@media screen and (min-width: 1728px){
+    .experiencia-profissional {
+        text-align: center;
+        margin-bottom: 60px;
+        /* Adicione margem inferior para separá-lo do container */
+        color: var(--cor-de-link);
+        font-weight: bold;
+        font-size: 2.37rem;
+    }
+    
+    .subtitulos {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    
+    .experiencia {
+        display: flex;
+        margin: 4% 15%;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    
+    .detalhes {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    
+    .card-title,
+    .card-subtitle,
+    .card-text {
+        margin-top: 10px;
+        /* Removemos as margens padrão para evitar espaços extras */
+        color: var(--cor-de-link);
+        font-family: 'Raleway', sans-serif;
+    }
+    
+    .card-text-secundary {
+        margin-top: 10px;
+        /* Removemos as margens padrão para evitar espaços extras */
+        color: var(--cor-teste);
+        font-family: 'Raleway', sans-serif;
+    }
+    
+    .card-title {
+        font-size: 1.25rem;
+    }
+    
+    .card-subtitle {
+        font-size: 1rem;
+    }
+    
+    .card-text {
+        font-size: 1rem;
+        color: var(--cor--subtitle);
+        /* Corrigimos o nome da variável de cor */
+    }
+    
+    
+    .card {
+        display: flex;
+        flex-direction: column;
+        background-color: var(--cor-de-fundo);
+        width: 580px;
+        max-width: calc(100% - 20px);
+        height: auto;
+        border-radius: 16px;
+        margin-bottom: 57px;
+        border: 1px solid var(--cor-teste);
+        box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    }
+    
+    .card-body {
+        padding: 20px;
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+}
