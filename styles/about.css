@@ -90,8 +90,9 @@
     }
     
     .about__container {
+        display: flex;
         flex-direction: column;
-        margin: 30px;
+        margin: 4%;
         align-items: flex-start;
         justify-content: flex-start;
         margin-top: 20px;
@@ -100,7 +101,7 @@
     
     .about__title {
         font-family: 'Raleway';
-        font-size: 1.37rem;
+        font-size: 2rem;
         font-weight: bold;
         margin-bottom: 25px;
     
@@ -118,7 +119,7 @@
     }
     
     .about__title strong {
-        font-size: 1.37rem;
+        font-size: 2rem;
         font-weight: bold;
     }
 }

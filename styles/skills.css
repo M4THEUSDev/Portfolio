@@ -122,7 +122,7 @@
 }
 @media screen and (min-width: 1024px){
     .skills {
-        margin: 4% 15%;
+        margin: 4%;
         display: flex;
         align-items: center;
         justify-content: center;

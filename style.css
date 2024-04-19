@@ -30,4 +30,20 @@ body {
     line-height: 1;
 }
 
+.apresentacao,
+.apresentacao img {
+    opacity: 0; /* Inicialmente, os elementos estão invisíveis */
+    transition: opacity 0.5s ease; /* Adiciona uma transição suave */
+}
 
+.hidden {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .hidden {
+      display: block; /* ou outra propriedade para tornar visível */
+    }
+  }

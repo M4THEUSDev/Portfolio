@@ -34,10 +34,6 @@
     color: var(--cor-teste);
 }
 
-.cabecalho__menu__link{
-    color: white;
-}
-
 .lista-menu{
     display: none;
     position: absolute;
@@ -78,74 +74,35 @@
     display: none;
 }
 
+
+
 @media screen and (min-width: 1024px){
 
-    .name {
-        display: flex; /* Oculta o elemento .name */
-    }
-
-    .name strong {
-        display: flex; /* Oculta o elemento strong dentro de .name */
-    }
-
-    .cabecalho {
-        display: flex;
-        align-items: center;
-    }
-    
-    .cabecalho__menu {
-        display: flex;
-        gap: 32px;
-        justify-content: space-between;
-    }
-    
-    
-    .cabecalho__menu__link {
-        font-family: 'Raleway', sans-serif;
-        font-size: 20px;
-        font-weight: bold;
-        color: var(--cor-de-link);
-    
-    }
-    .opcoes{
-        display: none;
-    }
-
-    .cabecalho{
-        margin: 30px;
-        padding: 10px;
-    }
-
-    .cabecalho__menu-hamburguer{
-        display: none;
-    }
+  .cabecalho__menu-hamburguer{
+    display: none;
+  }
 
 
-    .container__titulo{
-        margin: 10px;
-        padding: 30px;
-    }
+  .cabecalho {
+    margin: 0% 4% 0;
+    display: flex;
+    align-items: center;
+}
 
-    .container__titulo,
-    .titulo__destaque__dev {
-        font-family: 'Raleway', sans-serif; 
-        font-size: 1.37rem;
-    }
+.cabecalho__menu {
+    display: flex;
+    gap: 32px;
+    justify-content: space-between;
+}
 
-    .container__titulo{
-        font-weight: bold;
-        display: block;
-        color: var(--cor-de-link);
-    }
 
-    .titulo__destaque__dev{
-        font-weight: bold;
-        color: var(--cor-teste);
-    }
+.cabecalho__menu__link {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--cor-de-link);
 
-    .cabecalho__menu-hamburguer{
-        display: none;
-    }
+}
 
 }
 
@@ -180,14 +137,6 @@
         color: var(--cor-de-link);
     
     }
-    
-    .cabecalho__menu {
-        display: none;
-    }
-
-    .cabecalho__menu__link{
-        color: white;
-    }
     .opcoes{
         display: flex;
     }
@@ -199,5 +148,4 @@
         text-decoration: none;
         color: var(--cor-de-link);
     }
-    
 }
