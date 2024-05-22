@@ -1,3 +1,12 @@
+function scrollToAnchor(anchorId) {
+  const targetElement = document.getElementById(anchorId);
+  if (targetElement) {
+      targetElement.scrollIntoView({ behavior: 'smooth' });
+  }
+}
+
+
+
 document.addEventListener("DOMContentLoaded", function() {
     var elements = document.querySelectorAll('.apresentacao , .apresentacao img');
     
